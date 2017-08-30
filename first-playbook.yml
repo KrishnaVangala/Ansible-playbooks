@@ -8,7 +8,7 @@
      playbook_version: 0.1b
   vars_files:
      - ~/playbooks/conf/copyright.yml
-     - ~/playbooks/conf/webdefaults.yml
+     - ~/playbooks/conf/webdefault.yml
   vars_prompt:
      - name: web_domain
        prompt: Web Domain
