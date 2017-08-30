@@ -1,4 +1,5 @@
 - hosts: apacheweb
+ #the First way to include a variable
   vars: 
     control_server: linuxnoob4.mylabserver.com
     web_root: /var/www/html/
