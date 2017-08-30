@@ -1,7 +1,7 @@
 --- # First Yaml playbook for Ansible
 - hosts: apacheweb
   user: test
-  become_user: sudo
+  sudo: yes
   connection: ssh
   gather_facts: no
   vars:
